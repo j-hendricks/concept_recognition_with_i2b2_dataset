@@ -11,6 +11,9 @@ Each dataset option can be found at the following link but can only be accessed 
 ## Code for data extraction
 I have only uploaded the code for extracting text from dataset 1 because part of the agreement was that I would not share this data with anyone. In summary, I used Python's "with open()" function to read the text files into a dataframe, and then preprocessed the data such that each token has a concept tag (e.g. B-test, I-treatment and O).
 
+## Preprocessing and Exploratory Analysis
+Please view "Data_Processing_and_EDA.ipynb" to understand how I preprocessed the data. This notebook also shows some interseting visulizations of my data, such as TSNE.
+
 ## Recreating Previous Results
 This dataset was originally a part of the The 2010 i2b2/VA Workshop on Natural Language Processing Challenges for Clinical Records (link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3168320/). The paper, “2010 i2b2/VA challenge on concepts, assertions, and relations in clinical text” by Uzuner et al. summarized the results of the competition.
 
